@@ -38,7 +38,7 @@ func main() {
 		var myClient *myCustomClient
 
 		fn := func(msg []byte) {
-			log.Println("Message Recieved:", string(msg))
+			log.Println("Message Received:", string(msg))
 
 			// do some custom logic based on the message eg. broadcast to
 			// everyone except yourself.
